@@ -31,6 +31,7 @@ I am committing to **100 days of continuous learning** in Artificial Intelligenc
 | Day | Topic | Status |
 |----|------|--------|
 | Day 1 | Python for AI | ✅ |
+| Day 2 | Python for AI | ✅ |
 
 
 ---
