@@ -76,7 +76,8 @@ Data preprocessing
 Mathematical helpers
 
 Reusable ML utilities
-
+## DECORATORS VIDEO:
+https://youtu.be/U-G-mSd4KAE?si=sJC-fkras3J-US4S
 ### 🧠 Key Learnings
 
 Functions help write clean, reusable, and scalable code
