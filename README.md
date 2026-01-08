@@ -37,6 +37,9 @@ I am committing to **100 days of continuous learning** in Artificial Intelligenc
 | Day 2 | Python for AI | ✅     |
 | Day 3 | Python for AI | ✅     |
 | Day 4 | Python for AI | ✅     |
+| Day 5 | Python for AI | ✅     |
+| Day 6 | Python for AI | ✅     |
+| Day 7 | Python for AI | ✅     |
 
 ---
 
