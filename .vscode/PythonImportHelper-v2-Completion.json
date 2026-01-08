@@ -1,0 +1,1153 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "cube",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "count_missing",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "def add(num1,num2):\n    return num1 + num2\nresult = add(num1,num2)\nprint(\"Addition:\", result)\n#Function 2: Check Even or Odd\nnum = 14\ndef is_even(num):\n    return num%2==0\nprint(f\"{num} is even: {is_even(num)}\")\n#Function 3: Find Maximum of Two Numbers",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 2,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "def is_even(num):\n    return num%2==0\nprint(f\"{num} is even: {is_even(num)}\")\n#Function 3: Find Maximum of Two Numbers\ndef max(a,b):\n    if a>b:\n        return a\n    else:\n        return b\nprint(\"Maximum:\", max(num1,num2))",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 2,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "def max(a,b):\n    if a>b:\n        return a\n    else:\n        return b\nprint(\"Maximum:\", max(num1,num2))\n#Function 4: Calculate Simple Interest\ndef  simple_interest(pr,rt,t):\n    return (pr*rt*t)/100\nprint(\"Simple Interest:\", simple_interest(num,num1,num2))",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": {
+            "name": "",
+            "kind": 2,
+            "peekOfCode": "def  simple_interest(pr,rt,t):\n    return (pr*rt*t)/100\nprint(\"Simple Interest:\", simple_interest(num,num1,num2))\n#5 Check if a Number Is Prime\ndef is_prime(n):\n    if n<=1:\n        return False\n    for i in range(2,n):\n        if n%i==0:\n            return False"
+        },
+        "kind": 2,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "def  simple_interest(pr,rt,t):\n    return (pr*rt*t)/100\nprint(\"Simple Interest:\", simple_interest(num,num1,num2))\n#5 Check if a Number Is Prime\ndef is_prime(n):\n    if n<=1:\n        return False\n    for i in range(2,n):\n        if n%i==0:\n            return False",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "def is_prime(n):\n    if n<=1:\n        return False\n    for i in range(2,n):\n        if n%i==0:\n            return False\n    return True\nprint(f\"{num} is prime: {is_prime(num)}\")",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "num1 = 20\nnum2 = 40\ndef add(num1,num2):\n    return num1 + num2\nresult = add(num1,num2)\nprint(\"Addition:\", result)\n#Function 2: Check Even or Odd\nnum = 14\ndef is_even(num):\n    return num%2==0",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "num2 = 40\ndef add(num1,num2):\n    return num1 + num2\nresult = add(num1,num2)\nprint(\"Addition:\", result)\n#Function 2: Check Even or Odd\nnum = 14\ndef is_even(num):\n    return num%2==0\nprint(f\"{num} is even: {is_even(num)}\")",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "result = add(num1,num2)\nprint(\"Addition:\", result)\n#Function 2: Check Even or Odd\nnum = 14\ndef is_even(num):\n    return num%2==0\nprint(f\"{num} is even: {is_even(num)}\")\n#Function 3: Find Maximum of Two Numbers\ndef max(a,b):\n    if a>b:",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Day02.BasicFunctions",
+        "description": "Day02.BasicFunctions",
+        "peekOfCode": "num = 14\ndef is_even(num):\n    return num%2==0\nprint(f\"{num} is even: {is_even(num)}\")\n#Function 3: Find Maximum of Two Numbers\ndef max(a,b):\n    if a>b:\n        return a\n    else:\n        return b",
+        "detail": "Day02.BasicFunctions",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "total = 5 + 5\nprint(total)\n# Numbers can do math\ntotal = 10 + 5  # 15\n# Strings combine differently  \nname = \"Hello\" + \"World\"  # \"HelloWorld\"\n# Can't mix without converting\n# age = \"25\" + 5  # Error!\nage = int(\"25\") + 5  # 30 (converted string to number)\n# Check different types",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "total = 10 + 5  # 15\n# Strings combine differently  \nname = \"Hello\" + \"World\"  # \"HelloWorld\"\n# Can't mix without converting\n# age = \"25\" + 5  # Error!\nage = int(\"25\") + 5  # 30 (converted string to number)\n# Check different types\nprint(type(42))          # <class 'int'>\nprint(type(3.14))        # <class 'float'>\nprint(type(\"Hello\"))     # <class 'str'>",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "name = \"Hello\" + \"World\"  # \"HelloWorld\"\n# Can't mix without converting\n# age = \"25\" + 5  # Error!\nage = int(\"25\") + 5  # 30 (converted string to number)\n# Check different types\nprint(type(42))          # <class 'int'>\nprint(type(3.14))        # <class 'float'>\nprint(type(\"Hello\"))     # <class 'str'>\nprint(type(True))        # <class 'bool'>\nprint(type(5 + 3))",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "age = int(\"25\") + 5  # 30 (converted string to number)\n# Check different types\nprint(type(42))          # <class 'int'>\nprint(type(3.14))        # <class 'float'>\nprint(type(\"Hello\"))     # <class 'str'>\nprint(type(True))        # <class 'bool'>\nprint(type(5 + 3))\n# Check variables\nage = 25\nname = \"Alice\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "age = 25\nname = \"Alice\"\nprint(type(age))         # <class 'int'>\nprint(type(name))        # <class 'str'>\n#float vs integer division\n# Regular division (always float)\nresult = 10 / 3    # 3.333...\n# Integer division (rounds down)\nresult = 10 // 3   # 3\n#Can't use commas in numbers",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "name = \"Alice\"\nprint(type(age))         # <class 'int'>\nprint(type(name))        # <class 'str'>\n#float vs integer division\n# Regular division (always float)\nresult = 10 / 3    # 3.333...\n# Integer division (rounds down)\nresult = 10 // 3   # 3\n#Can't use commas in numbers\n# Wrong",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "result = 10 / 3    # 3.333...\n# Integer division (rounds down)\nresult = 10 // 3   # 3\n#Can't use commas in numbers\n# Wrong\nmillion = 1,000,000  # Creates a tuple, not a number!\n# Right\n#can't use commas in numbers\nmillion = 1000000    # Hard to read\nmillion = 1_000_000  # Python style",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "result = 10 // 3   # 3\n#Can't use commas in numbers\n# Wrong\nmillion = 1,000,000  # Creates a tuple, not a number!\n# Right\n#can't use commas in numbers\nmillion = 1000000    # Hard to read\nmillion = 1_000_000  # Python style\n#Strings:\nname = \"Shilpa\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "million",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "million = 1,000,000  # Creates a tuple, not a number!\n# Right\n#can't use commas in numbers\nmillion = 1000000    # Hard to read\nmillion = 1_000_000  # Python style\n#Strings:\nname = \"Shilpa\"\ngreet = 'Hello Guys'\n# Single quotes\nfirst = 'Python'",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "million",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "million = 1000000    # Hard to read\nmillion = 1_000_000  # Python style\n#Strings:\nname = \"Shilpa\"\ngreet = 'Hello Guys'\n# Single quotes\nfirst = 'Python'\n# Double quotes  \nsecond = \"Python\"\n# Triple quotes for multiple lines",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "million",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "million = 1_000_000  # Python style\n#Strings:\nname = \"Shilpa\"\ngreet = 'Hello Guys'\n# Single quotes\nfirst = 'Python'\n# Double quotes  \nsecond = \"Python\"\n# Triple quotes for multiple lines\nparagraph = \"\"\"This is",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "name = \"Shilpa\"\ngreet = 'Hello Guys'\n# Single quotes\nfirst = 'Python'\n# Double quotes  \nsecond = \"Python\"\n# Triple quotes for multiple lines\nparagraph = \"\"\"This is\na multi-line\nstring\"\"\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "greet = 'Hello Guys'\n# Single quotes\nfirst = 'Python'\n# Double quotes  \nsecond = \"Python\"\n# Triple quotes for multiple lines\nparagraph = \"\"\"This is\na multi-line\nstring\"\"\"\n#Use double quotes when your text contains apostrophes: \"It's Python!\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "first",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "first = 'Python'\n# Double quotes  \nsecond = \"Python\"\n# Triple quotes for multiple lines\nparagraph = \"\"\"This is\na multi-line\nstring\"\"\"\n#Use double quotes when your text contains apostrophes: \"It's Python!\"\n#String Operations\n#Contactenation",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "second",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "second = \"Python\"\n# Triple quotes for multiple lines\nparagraph = \"\"\"This is\na multi-line\nstring\"\"\"\n#Use double quotes when your text contains apostrophes: \"It's Python!\"\n#String Operations\n#Contactenation\nfirst_name = \"Shilpa\"\nlast_name = \"Dadhich\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "paragraph",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "paragraph = \"\"\"This is\na multi-line\nstring\"\"\"\n#Use double quotes when your text contains apostrophes: \"It's Python!\"\n#String Operations\n#Contactenation\nfirst_name = \"Shilpa\"\nlast_name = \"Dadhich\"\nfull_name = first_name + \" \" + last_name \nprint(full_name)",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "first_name = \"Shilpa\"\nlast_name = \"Dadhich\"\nfull_name = first_name + \" \" + last_name \nprint(full_name)\n#Repetition\nlaugh = \"He\" *5\nprint(laugh)  # HeHeHeHeHe\n#String length\nlength = len(full_name)\nprint(length)  # 13",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "last_name",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "last_name = \"Dadhich\"\nfull_name = first_name + \" \" + last_name \nprint(full_name)\n#Repetition\nlaugh = \"He\" *5\nprint(laugh)  # HeHeHeHeHe\n#String length\nlength = len(full_name)\nprint(length)  # 13\n#Converting to String",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "full_name",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "full_name = first_name + \" \" + last_name \nprint(full_name)\n#Repetition\nlaugh = \"He\" *5\nprint(laugh)  # HeHeHeHeHe\n#String length\nlength = len(full_name)\nprint(length)  # 13\n#Converting to String\nage = 21",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "laugh",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "laugh = \"He\" *5\nprint(laugh)  # HeHeHeHeHe\n#String length\nlength = len(full_name)\nprint(length)  # 13\n#Converting to String\nage = 21\nmessage = \"I am \"+str(age)+\" years old.\"\nprint(message)\n# Or use f-strings (we'll learn more later)",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "length = len(full_name)\nprint(length)  # 13\n#Converting to String\nage = 21\nmessage = \"I am \"+str(age)+\" years old.\"\nprint(message)\n# Or use f-strings (we'll learn more later)\nmessage = f\"I am {age} years old\"\n#Boolean Data Type\nis_student = True",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "age = 21\nmessage = \"I am \"+str(age)+\" years old.\"\nprint(message)\n# Or use f-strings (we'll learn more later)\nmessage = f\"I am {age} years old\"\n#Boolean Data Type\nis_student = True\nhas_graduated = False\n#Boolean values are True and False with capital letters. Using true or false will cause an error!\nage = 20",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "message = \"I am \"+str(age)+\" years old.\"\nprint(message)\n# Or use f-strings (we'll learn more later)\nmessage = f\"I am {age} years old\"\n#Boolean Data Type\nis_student = True\nhas_graduated = False\n#Boolean values are True and False with capital letters. Using true or false will cause an error!\nage = 20\nis_adult = age>18",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "message = f\"I am {age} years old\"\n#Boolean Data Type\nis_student = True\nhas_graduated = False\n#Boolean values are True and False with capital letters. Using true or false will cause an error!\nage = 20\nis_adult = age>18\nprint(is_adult)  # True\n#operators: and, or, not\n#Logical Operators",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "is_student",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "is_student = True\nhas_graduated = False\n#Boolean values are True and False with capital letters. Using true or false will cause an error!\nage = 20\nis_adult = age>18\nprint(is_adult)  # True\n#operators: and, or, not\n#Logical Operators\nage = 25\nhas_license = True",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "has_graduated",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "has_graduated = False\n#Boolean values are True and False with capital letters. Using true or false will cause an error!\nage = 20\nis_adult = age>18\nprint(is_adult)  # True\n#operators: and, or, not\n#Logical Operators\nage = 25\nhas_license = True\n# AND - both must be true",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "age = 20\nis_adult = age>18\nprint(is_adult)  # True\n#operators: and, or, not\n#Logical Operators\nage = 25\nhas_license = True\n# AND - both must be true\ncan_drive = age >= 16 and has_license\nprint(can_drive)  # True",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "is_adult",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "is_adult = age>18\nprint(is_adult)  # True\n#operators: and, or, not\n#Logical Operators\nage = 25\nhas_license = True\n# AND - both must be true\ncan_drive = age >= 16 and has_license\nprint(can_drive)  # True\n# OR - at least one must be true",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "age = 25\nhas_license = True\n# AND - both must be true\ncan_drive = age >= 16 and has_license\nprint(can_drive)  # True\n# OR - at least one must be true\nday = \"Saturday\"\nis_weekend = day == \"Saturday\" or day == \"Sunday\"\nprint(is_weekend)  # True\n# NOT - reverses the value",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "has_license",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "has_license = True\n# AND - both must be true\ncan_drive = age >= 16 and has_license\nprint(can_drive)  # True\n# OR - at least one must be true\nday = \"Saturday\"\nis_weekend = day == \"Saturday\" or day == \"Sunday\"\nprint(is_weekend)  # True\n# NOT - reverses the value\nis_adult = age >= 18",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "can_drive",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "can_drive = age >= 16 and has_license\nprint(can_drive)  # True\n# OR - at least one must be true\nday = \"Saturday\"\nis_weekend = day == \"Saturday\" or day == \"Sunday\"\nprint(is_weekend)  # True\n# NOT - reverses the value\nis_adult = age >= 18\nis_child = not is_adult\nprint(is_child)  # False",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "day",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "day = \"Saturday\"\nis_weekend = day == \"Saturday\" or day == \"Sunday\"\nprint(is_weekend)  # True\n# NOT - reverses the value\nis_adult = age >= 18\nis_child = not is_adult\nprint(is_child)  # False\n#String Methods\ntext = \"Python Programming\"\nprint(text.lower())      # \"python programming\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "is_weekend",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "is_weekend = day == \"Saturday\" or day == \"Sunday\"\nprint(is_weekend)  # True\n# NOT - reverses the value\nis_adult = age >= 18\nis_child = not is_adult\nprint(is_child)  # False\n#String Methods\ntext = \"Python Programming\"\nprint(text.lower())      # \"python programming\"\nprint(text.upper())      # \"PYTHON PROGRAMMING\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "is_adult",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "is_adult = age >= 18\nis_child = not is_adult\nprint(is_child)  # False\n#String Methods\ntext = \"Python Programming\"\nprint(text.lower())      # \"python programming\"\nprint(text.upper())      # \"PYTHON PROGRAMMING\"\nprint(text.title())      # \"Python Programming\"\nmessy = \"  hello world  \"\nprint(messy.strip())     # \"hello world\" (removes whitespace)",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "is_child",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "is_child = not is_adult\nprint(is_child)  # False\n#String Methods\ntext = \"Python Programming\"\nprint(text.lower())      # \"python programming\"\nprint(text.upper())      # \"PYTHON PROGRAMMING\"\nprint(text.title())      # \"Python Programming\"\nmessy = \"  hello world  \"\nprint(messy.strip())     # \"hello world\" (removes whitespace)\nprice = \"$19.99\"",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "text = \"Python Programming\"\nprint(text.lower())      # \"python programming\"\nprint(text.upper())      # \"PYTHON PROGRAMMING\"\nprint(text.title())      # \"Python Programming\"\nmessy = \"  hello world  \"\nprint(messy.strip())     # \"hello world\" (removes whitespace)\nprice = \"$19.99\"\nprint(price.strip(\"$\"))  # \"19.99\"\nmessage = \"I love Python programming with Python\"\n# Check if something exists",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "messy",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "messy = \"  hello world  \"\nprint(messy.strip())     # \"hello world\" (removes whitespace)\nprice = \"$19.99\"\nprint(price.strip(\"$\"))  # \"19.99\"\nmessage = \"I love Python programming with Python\"\n# Check if something exists\nprint(\"Python\" in message)        # True\nprint(message.startswith(\"I\"))   # True\nprint(message.endswith(\"Python\")) # True\n# Find position",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "price = \"$19.99\"\nprint(price.strip(\"$\"))  # \"19.99\"\nmessage = \"I love Python programming with Python\"\n# Check if something exists\nprint(\"Python\" in message)        # True\nprint(message.startswith(\"I\"))   # True\nprint(message.endswith(\"Python\")) # True\n# Find position\nprint(message.find(\"Python\"))     # 7 (first occurrence)\nprint(message.count(\"Python\"))    # 2 (number of times)",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "message = \"I love Python programming with Python\"\n# Check if something exists\nprint(\"Python\" in message)        # True\nprint(message.startswith(\"I\"))   # True\nprint(message.endswith(\"Python\")) # True\n# Find position\nprint(message.find(\"Python\"))     # 7 (first occurrence)\nprint(message.count(\"Python\"))    # 2 (number of times)\n# Replace\nnew_message = message.replace(\"Python\", \"JavaScript\")",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "new_message",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "new_message = message.replace(\"Python\", \"JavaScript\")\nprint(new_message)  # \"I love JavaScript programming with JavaScript\"\n# Wrong - mismatched quotes\n#text = 'It's Python'\n# Right - escape or use different quotes\ntext = \"It's Python\"  # Double quotes outside\ntext = 'It\\'s Python'  # Escape the apostrophe",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "#text",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "#text = 'It's Python'\n# Right - escape or use different quotes\ntext = \"It's Python\"  # Double quotes outside\ntext = 'It\\'s Python'  # Escape the apostrophe",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "text = \"It's Python\"  # Double quotes outside\ntext = 'It\\'s Python'  # Escape the apostrophe",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day02.datatypes",
+        "description": "Day02.datatypes",
+        "peekOfCode": "text = 'It\\'s Python'  # Escape the apostrophe",
+        "detail": "Day02.datatypes",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "def add(x, y):\n    return x + y\ndef subtract(x, y):\n    return x - y\ndef multiply(x, y):\n    return x * y\ndef divide(x, y):\n    return x / y\nnum1 = int(input(\"Enter First Number: \"))\nnum2 = int(input(\"Enter Second Number: \"))",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "def subtract(x, y):\n    return x - y\ndef multiply(x, y):\n    return x * y\ndef divide(x, y):\n    return x / y\nnum1 = int(input(\"Enter First Number: \"))\nnum2 = int(input(\"Enter Second Number: \"))\nprint(\"Choose an operation: \")\nfor i in [\"1. Addition\", \"2. Subtraction\", \"3. Multiplication\", \"4. Division\"]:",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "def multiply(x, y):\n    return x * y\ndef divide(x, y):\n    return x / y\nnum1 = int(input(\"Enter First Number: \"))\nnum2 = int(input(\"Enter Second Number: \"))\nprint(\"Choose an operation: \")\nfor i in [\"1. Addition\", \"2. Subtraction\", \"3. Multiplication\", \"4. Division\"]:\n    print(i)\noperation = input(\"Enter operation (1/2/3/4): \")",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "def divide(x, y):\n    return x / y\nnum1 = int(input(\"Enter First Number: \"))\nnum2 = int(input(\"Enter Second Number: \"))\nprint(\"Choose an operation: \")\nfor i in [\"1. Addition\", \"2. Subtraction\", \"3. Multiplication\", \"4. Division\"]:\n    print(i)\noperation = input(\"Enter operation (1/2/3/4): \")\nif operation == '1':\n    print(num1, \"+\", num2, \"=\", add(num1, num2))",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "num1 = int(input(\"Enter First Number: \"))\nnum2 = int(input(\"Enter Second Number: \"))\nprint(\"Choose an operation: \")\nfor i in [\"1. Addition\", \"2. Subtraction\", \"3. Multiplication\", \"4. Division\"]:\n    print(i)\noperation = input(\"Enter operation (1/2/3/4): \")\nif operation == '1':\n    print(num1, \"+\", num2, \"=\", add(num1, num2))\nelif operation == '2':\n    print(num1, \"-\", num2, \"=\", subtract(num1, num2))",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "num2 = int(input(\"Enter Second Number: \"))\nprint(\"Choose an operation: \")\nfor i in [\"1. Addition\", \"2. Subtraction\", \"3. Multiplication\", \"4. Division\"]:\n    print(i)\noperation = input(\"Enter operation (1/2/3/4): \")\nif operation == '1':\n    print(num1, \"+\", num2, \"=\", add(num1, num2))\nelif operation == '2':\n    print(num1, \"-\", num2, \"=\", subtract(num1, num2))\nelif operation == '3':",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "operation",
+        "kind": 5,
+        "importPath": "Day03.Project01",
+        "description": "Day03.Project01",
+        "peekOfCode": "operation = input(\"Enter operation (1/2/3/4): \")\nif operation == '1':\n    print(num1, \"+\", num2, \"=\", add(num1, num2))\nelif operation == '2':\n    print(num1, \"-\", num2, \"=\", subtract(num1, num2))\nelif operation == '3':\n    print(num1, \"*\", num2, \"=\", multiply(num1, num2))       \nelif operation == '4':\n    print(num1, \"/\", num2, \"=\", divide(num1, num2))",
+        "detail": "Day03.Project01",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 2,
+        "importPath": "Day04.utils.data_utils",
+        "description": "Day04.utils.data_utils",
+        "peekOfCode": "def average(nums):\n    return sum(nums)/len(nums)\ndef count_missing(data):\n    for item in data:\n        if item is None:\n            return True\n    return False",
+        "detail": "Day04.utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "count_missing",
+        "kind": 2,
+        "importPath": "Day04.utils.data_utils",
+        "description": "Day04.utils.data_utils",
+        "peekOfCode": "def count_missing(data):\n    for item in data:\n        if item is None:\n            return True\n    return False",
+        "detail": "Day04.utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 2,
+        "importPath": "Day04.utils.math_utils",
+        "description": "Day04.utils.math_utils",
+        "peekOfCode": "def square(n):\n    return n*n\ndef cube(n):\n    return n*n*n\ndef is_even(n):\n    return n % 2 == 0",
+        "detail": "Day04.utils.math_utils",
+        "documentation": {}
+    },
+    {
+        "label": "cube",
+        "kind": 2,
+        "importPath": "Day04.utils.math_utils",
+        "description": "Day04.utils.math_utils",
+        "peekOfCode": "def cube(n):\n    return n*n*n\ndef is_even(n):\n    return n % 2 == 0",
+        "detail": "Day04.utils.math_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 2,
+        "importPath": "Day04.utils.math_utils",
+        "description": "Day04.utils.math_utils",
+        "peekOfCode": "def is_even(n):\n    return n % 2 == 0",
+        "detail": "Day04.utils.math_utils",
+        "documentation": {}
+    },
+    {
+        "label": "time_tracker",
+        "kind": 2,
+        "importPath": "Day04.decorators",
+        "description": "Day04.decorators",
+        "peekOfCode": "def time_tracker(func):\n    def wrapper():\n        start_time = time.time()\n        func()\n        end_time = time.time()\n        execution_duration = end_time - start_time\n        print(f\"Execution time: {execution_duration} seconds\")\n    return wrapper\n@time_tracker\ndef sample_func():",
+        "detail": "Day04.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "sample_func",
+        "kind": 2,
+        "importPath": "Day04.decorators",
+        "description": "Day04.decorators",
+        "peekOfCode": "def sample_func():\n    total = 0.1\n    for i in range(1,100):\n        total *= i\n    print(\"Sample function executed.\",total)\nsample_func()\n# 🧠 Decorator Question 2: Login Required Decorator (REAL-WORLD LOGIC)\n# 🎯 Problem Statement\n# Create a decorator called login_required that:\n# Checks if a user is logged in",
+        "detail": "Day04.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Login_required",
+        "kind": 2,
+        "importPath": "Day04.decorators",
+        "description": "Day04.decorators",
+        "peekOfCode": "def Login_required(func):\n    def wrapper(is_logged_in):\n        if is_logged_in:\n            func()\n        else:\n            print(\"Please login first\")\n    return wrapper\ndef sample_fucntion():\n    print(\"Function executed successfully.\")\nLogin_required(sample_fucntion)(False)  # Should print \"Please login first\"",
+        "detail": "Day04.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "sample_fucntion",
+        "kind": 2,
+        "importPath": "Day04.decorators",
+        "description": "Day04.decorators",
+        "peekOfCode": "def sample_fucntion():\n    print(\"Function executed successfully.\")\nLogin_required(sample_fucntion)(False)  # Should print \"Please login first\"\nLogin_required(sample_fucntion)(True)   # Should execute the function",
+        "detail": "Day04.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Day04.main",
+        "description": "Day04.main",
+        "peekOfCode": "num = 2\nprint(f\"Square of {num} is {square(num)}\")\nprint(f\"Cube of {num} is {cube(num)}\")\nnums = [1, 2, 3, 4, 5]\nprint(f\"Average of {nums} is {average(nums)}\")\nprint(f\"Is {num} even? {'Yes' if is_even(num) else 'No'}\")\ndata = [1, 2, None, 4]\nprint(f\"Does data {data} have missing values? {'Yes' if count_missing(data ) else 'No'}\")",
+        "detail": "Day04.main",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "Day04.main",
+        "description": "Day04.main",
+        "peekOfCode": "nums = [1, 2, 3, 4, 5]\nprint(f\"Average of {nums} is {average(nums)}\")\nprint(f\"Is {num} even? {'Yes' if is_even(num) else 'No'}\")\ndata = [1, 2, None, 4]\nprint(f\"Does data {data} have missing values? {'Yes' if count_missing(data ) else 'No'}\")",
+        "detail": "Day04.main",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Day04.main",
+        "description": "Day04.main",
+        "peekOfCode": "data = [1, 2, None, 4]\nprint(f\"Does data {data} have missing values? {'Yes' if count_missing(data ) else 'No'}\")",
+        "detail": "Day04.main",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "arr = np.arange(1, 11)\n# 2: zeros (3,3)\nz = np.zeros((3, 3))\n# 3: full of 7, 3x4\nf = np.full((3, 4), 7)\n# 4: identity 5x5\nI = np.eye(5)\n# 5: 10 evenly spaced between 0 and 1\nlin = np.linspace(0, 1, 10)\n# 6: props",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "z = np.zeros((3, 3))\n# 3: full of 7, 3x4\nf = np.full((3, 4), 7)\n# 4: identity 5x5\nI = np.eye(5)\n# 5: 10 evenly spaced between 0 and 1\nlin = np.linspace(0, 1, 10)\n# 6: props\na = np.array([5, 10, 15, 20, 25])\na.shape, a.size, a.dtype",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "f = np.full((3, 4), 7)\n# 4: identity 5x5\nI = np.eye(5)\n# 5: 10 evenly spaced between 0 and 1\nlin = np.linspace(0, 1, 10)\n# 6: props\na = np.array([5, 10, 15, 20, 25])\na.shape, a.size, a.dtype\n# 7: list to array\na = np.array([1, 2, 3, 4])",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "I",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "I = np.eye(5)\n# 5: 10 evenly spaced between 0 and 1\nlin = np.linspace(0, 1, 10)\n# 6: props\na = np.array([5, 10, 15, 20, 25])\na.shape, a.size, a.dtype\n# 7: list to array\na = np.array([1, 2, 3, 4])\n# 8: arange with step 2\nar = np.arange(0, 21, 2)",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "lin",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "lin = np.linspace(0, 1, 10)\n# 6: props\na = np.array([5, 10, 15, 20, 25])\na.shape, a.size, a.dtype\n# 7: list to array\na = np.array([1, 2, 3, 4])\n# 8: arange with step 2\nar = np.arange(0, 21, 2)\n# 9: random (2,3) between 0 and 1\nr = np.random.rand(2, 3)",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "a = np.array([5, 10, 15, 20, 25])\na.shape, a.size, a.dtype\n# 7: list to array\na = np.array([1, 2, 3, 4])\n# 8: arange with step 2\nar = np.arange(0, 21, 2)\n# 9: random (2,3) between 0 and 1\nr = np.random.rand(2, 3)\n# 10: random ints\nri = np.random.randint(1, 101, size=(4, 4))",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "a = np.array([1, 2, 3, 4])\n# 8: arange with step 2\nar = np.arange(0, 21, 2)\n# 9: random (2,3) between 0 and 1\nr = np.random.rand(2, 3)\n# 10: random ints\nri = np.random.randint(1, 101, size=(4, 4))\n# 11: .ndim for 3D\nx = np.zeros((2, 3, 4))\nx.ndim   # 3",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "ar",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "ar = np.arange(0, 21, 2)\n# 9: random (2,3) between 0 and 1\nr = np.random.rand(2, 3)\n# 10: random ints\nri = np.random.randint(1, 101, size=(4, 4))\n# 11: .ndim for 3D\nx = np.zeros((2, 3, 4))\nx.ndim   # 3\n# 12: int to float\na = np.array([1, 2, 3])",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "r = np.random.rand(2, 3)\n# 10: random ints\nri = np.random.randint(1, 101, size=(4, 4))\n# 11: .ndim for 3D\nx = np.zeros((2, 3, 4))\nx.ndim   # 3\n# 12: int to float\na = np.array([1, 2, 3])\na_float = a.astype(float)\n# 13: boolean array from [1, 0, 3, 0]",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "ri",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "ri = np.random.randint(1, 101, size=(4, 4))\n# 11: .ndim for 3D\nx = np.zeros((2, 3, 4))\nx.ndim   # 3\n# 12: int to float\na = np.array([1, 2, 3])\na_float = a.astype(float)\n# 13: boolean array from [1, 0, 3, 0]\nb = np.array([1, 0, 3, 0], dtype=bool)\n# 14: total in (5,6)",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "x = np.zeros((2, 3, 4))\nx.ndim   # 3\n# 12: int to float\na = np.array([1, 2, 3])\na_float = a.astype(float)\n# 13: boolean array from [1, 0, 3, 0]\nb = np.array([1, 0, 3, 0], dtype=bool)\n# 14: total in (5,6)\nnp.zeros((5, 6)).size   # or 5*6\n# 15: empty (uninitialized content)",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "a = np.array([1, 2, 3])\na_float = a.astype(float)\n# 13: boolean array from [1, 0, 3, 0]\nb = np.array([1, 0, 3, 0], dtype=bool)\n# 14: total in (5,6)\nnp.zeros((5, 6)).size   # or 5*6\n# 15: empty (uninitialized content)\ne = np.empty((3, 3))",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "a_float",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "a_float = a.astype(float)\n# 13: boolean array from [1, 0, 3, 0]\nb = np.array([1, 0, 3, 0], dtype=bool)\n# 14: total in (5,6)\nnp.zeros((5, 6)).size   # or 5*6\n# 15: empty (uninitialized content)\ne = np.empty((3, 3))",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "b = np.array([1, 0, 3, 0], dtype=bool)\n# 14: total in (5,6)\nnp.zeros((5, 6)).size   # or 5*6\n# 15: empty (uninitialized content)\ne = np.empty((3, 3))",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "Day05.level1",
+        "description": "Day05.level1",
+        "peekOfCode": "e = np.empty((3, 3))",
+        "detail": "Day05.level1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "a = np.array([5, 10, 15, 20, 25])\nm = np.array([[1, 2, 3],\n              [4, 5, 6],])\n# 16: first three\na[:3]\n# 17: last column\nm[:, -1]\n# 18: second row\nm[1, :]\n# 19: 2x2 sub-matrix (e.g. top-left)",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "m = np.array([[1, 2, 3],\n              [4, 5, 6],])\n# 16: first three\na[:3]\n# 17: last column\nm[:, -1]\n# 18: second row\nm[1, :]\n# 19: 2x2 sub-matrix (e.g. top-left)\nm[0:2, 0:2]",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "a[2]",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "a[2] = 99\n# 22: >10\na[a > 10]\n# 23: even to 0\na[a % 2 == 0] = 0\n# 24: divisible by 3\na[a % 3 == 0]\n# 25: count > mean\nmean_val = a.mean()\ncount = (a > mean_val).sum()",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "mean_val",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "mean_val = a.mean()\ncount = (a > mean_val).sum()\n# Level 4: Shape & broadcasting (36–45)\n# Concepts:\n# reshape, flatten, ravel, transpose\n# np.vstack, np.hstack\n# Broadcasting for vector + matrix\n# Multiply per column/row using broadcasting\n# reshape or reshape(-1, ...) to reduce dimensions\n# Shape comparison via .shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "count = (a > mean_val).sum()\n# Level 4: Shape & broadcasting (36–45)\n# Concepts:\n# reshape, flatten, ravel, transpose\n# np.vstack, np.hstack\n# Broadcasting for vector + matrix\n# Multiply per column/row using broadcasting\n# reshape or reshape(-1, ...) to reduce dimensions\n# Shape comparison via .shape\n# 36: reshape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "a = np.arange(12)\nm = a.reshape(3, 4)\n# 37: flatten\nflat = m.flatten()\n# 38: transpose\nmt = m.T\n# 39: vertical stack\na1 = np.array([1, 2, 3])\na2 = np.array([4, 5, 6])\nv = np.vstack((a1, a2))",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "m = a.reshape(3, 4)\n# 37: flatten\nflat = m.flatten()\n# 38: transpose\nmt = m.T\n# 39: vertical stack\na1 = np.array([1, 2, 3])\na2 = np.array([4, 5, 6])\nv = np.vstack((a1, a2))\n# 40: horizontal stack",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "flat",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "flat = m.flatten()\n# 38: transpose\nmt = m.T\n# 39: vertical stack\na1 = np.array([1, 2, 3])\na2 = np.array([4, 5, 6])\nv = np.vstack((a1, a2))\n# 40: horizontal stack\nh = np.hstack((a1, a2))\n# 41: broadcasting add [1,2,3]",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "mt",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "mt = m.T\n# 39: vertical stack\na1 = np.array([1, 2, 3])\na2 = np.array([4, 5, 6])\nv = np.vstack((a1, a2))\n# 40: horizontal stack\nh = np.hstack((a1, a2))\n# 41: broadcasting add [1,2,3]\nM = np.array([[10, 20, 30],\n              [40, 50, 60]])",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "a1 = np.array([1, 2, 3])\na2 = np.array([4, 5, 6])\nv = np.vstack((a1, a2))\n# 40: horizontal stack\nh = np.hstack((a1, a2))\n# 41: broadcasting add [1,2,3]\nM = np.array([[10, 20, 30],\n              [40, 50, 60]])\nv = np.array([1, 2, 3])\nres = M + v",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "a2 = np.array([4, 5, 6])\nv = np.vstack((a1, a2))\n# 40: horizontal stack\nh = np.hstack((a1, a2))\n# 41: broadcasting add [1,2,3]\nM = np.array([[10, 20, 30],\n              [40, 50, 60]])\nv = np.array([1, 2, 3])\nres = M + v\n# 42: subtract mean from every element",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "v = np.vstack((a1, a2))\n# 40: horizontal stack\nh = np.hstack((a1, a2))\n# 41: broadcasting add [1,2,3]\nM = np.array([[10, 20, 30],\n              [40, 50, 60]])\nv = np.array([1, 2, 3])\nres = M + v\n# 42: subtract mean from every element\nmean_val = a.mean()",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "h = np.hstack((a1, a2))\n# 41: broadcasting add [1,2,3]\nM = np.array([[10, 20, 30],\n              [40, 50, 60]])\nv = np.array([1, 2, 3])\nres = M + v\n# 42: subtract mean from every element\nmean_val = a.mean()\ncentered = a - mean_val\n# 43: multiply each column by vector",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "M = np.array([[10, 20, 30],\n              [40, 50, 60]])\nv = np.array([1, 2, 3])\nres = M + v\n# 42: subtract mean from every element\nmean_val = a.mean()\ncentered = a - mean_val\n# 43: multiply each column by vector\nM = np.array([[1, 2, 3],\n              [4, 5, 6]])",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "v = np.array([1, 2, 3])\nres = M + v\n# 42: subtract mean from every element\nmean_val = a.mean()\ncentered = a - mean_val\n# 43: multiply each column by vector\nM = np.array([[1, 2, 3],\n              [4, 5, 6]])\ncol_factors = np.array([1, 10, 100])   # shape (3,)\nM_scaled = M * col_factors   # broadcast across rows",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "res = M + v\n# 42: subtract mean from every element\nmean_val = a.mean()\ncentered = a - mean_val\n# 43: multiply each column by vector\nM = np.array([[1, 2, 3],\n              [4, 5, 6]])\ncol_factors = np.array([1, 10, 100])   # shape (3,)\nM_scaled = M * col_factors   # broadcast across rows\n# 44: 3D to 2D",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "mean_val",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "mean_val = a.mean()\ncentered = a - mean_val\n# 43: multiply each column by vector\nM = np.array([[1, 2, 3],\n              [4, 5, 6]])\ncol_factors = np.array([1, 10, 100])   # shape (3,)\nM_scaled = M * col_factors   # broadcast across rows\n# 44: 3D to 2D\nx = np.random.rand(2, 3, 4)   # e.g.\nx2d = x.reshape(2, -1)        # or (-1, 4) depending on need",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "centered",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "centered = a - mean_val\n# 43: multiply each column by vector\nM = np.array([[1, 2, 3],\n              [4, 5, 6]])\ncol_factors = np.array([1, 10, 100])   # shape (3,)\nM_scaled = M * col_factors   # broadcast across rows\n# 44: 3D to 2D\nx = np.random.rand(2, 3, 4)   # e.g.\nx2d = x.reshape(2, -1)        # or (-1, 4) depending on need\n# 45: same shape?",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "M = np.array([[1, 2, 3],\n              [4, 5, 6]])\ncol_factors = np.array([1, 10, 100])   # shape (3,)\nM_scaled = M * col_factors   # broadcast across rows\n# 44: 3D to 2D\nx = np.random.rand(2, 3, 4)   # e.g.\nx2d = x.reshape(2, -1)        # or (-1, 4) depending on need\n# 45: same shape?\nB = np.random.rand(2, 3, 4)   \nA = np.random.rand(2, 3, 4)   ",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "col_factors",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "col_factors = np.array([1, 10, 100])   # shape (3,)\nM_scaled = M * col_factors   # broadcast across rows\n# 44: 3D to 2D\nx = np.random.rand(2, 3, 4)   # e.g.\nx2d = x.reshape(2, -1)        # or (-1, 4) depending on need\n# 45: same shape?\nB = np.random.rand(2, 3, 4)   \nA = np.random.rand(2, 3, 4)   \nA.shape == B.shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "M_scaled",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "M_scaled = M * col_factors   # broadcast across rows\n# 44: 3D to 2D\nx = np.random.rand(2, 3, 4)   # e.g.\nx2d = x.reshape(2, -1)        # or (-1, 4) depending on need\n# 45: same shape?\nB = np.random.rand(2, 3, 4)   \nA = np.random.rand(2, 3, 4)   \nA.shape == B.shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "x = np.random.rand(2, 3, 4)   # e.g.\nx2d = x.reshape(2, -1)        # or (-1, 4) depending on need\n# 45: same shape?\nB = np.random.rand(2, 3, 4)   \nA = np.random.rand(2, 3, 4)   \nA.shape == B.shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "x2d",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "x2d = x.reshape(2, -1)        # or (-1, 4) depending on need\n# 45: same shape?\nB = np.random.rand(2, 3, 4)   \nA = np.random.rand(2, 3, 4)   \nA.shape == B.shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "B = np.random.rand(2, 3, 4)   \nA = np.random.rand(2, 3, 4)   \nA.shape == B.shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "Day06.practice",
+        "description": "Day06.practice",
+        "peekOfCode": "A = np.random.rand(2, 3, 4)   \nA.shape == B.shape",
+        "detail": "Day06.practice",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "nums = [10, 20, 30, 40, 50]\nseries = pd.Series(nums)\nprint(series)\nmarks = [85, 90, 78, 92, 88]\nlabels = ['Shilpa','Jhalak','Utsav','Ankush','Rachit']\nseries_custom = pd.Series(marks, index=labels)\nprint(series_custom)\ndata = {\n    \"Name\": [\"Shilpa\", \"Aman\", \"Riya\"],\n    \"Age\": [21, 22, 20],",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "series",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "series = pd.Series(nums)\nprint(series)\nmarks = [85, 90, 78, 92, 88]\nlabels = ['Shilpa','Jhalak','Utsav','Ankush','Rachit']\nseries_custom = pd.Series(marks, index=labels)\nprint(series_custom)\ndata = {\n    \"Name\": [\"Shilpa\", \"Aman\", \"Riya\"],\n    \"Age\": [21, 22, 20],\n    \"Score\": [85, 90, 88]",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "marks = [85, 90, 78, 92, 88]\nlabels = ['Shilpa','Jhalak','Utsav','Ankush','Rachit']\nseries_custom = pd.Series(marks, index=labels)\nprint(series_custom)\ndata = {\n    \"Name\": [\"Shilpa\", \"Aman\", \"Riya\"],\n    \"Age\": [21, 22, 20],\n    \"Score\": [85, 90, 88]\n}\ndf = pd.DataFrame(data)",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "labels = ['Shilpa','Jhalak','Utsav','Ankush','Rachit']\nseries_custom = pd.Series(marks, index=labels)\nprint(series_custom)\ndata = {\n    \"Name\": [\"Shilpa\", \"Aman\", \"Riya\"],\n    \"Age\": [21, 22, 20],\n    \"Score\": [85, 90, 88]\n}\ndf = pd.DataFrame(data)\nprint(df)",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "series_custom",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "series_custom = pd.Series(marks, index=labels)\nprint(series_custom)\ndata = {\n    \"Name\": [\"Shilpa\", \"Aman\", \"Riya\"],\n    \"Age\": [21, 22, 20],\n    \"Score\": [85, 90, 88]\n}\ndf = pd.DataFrame(data)\nprint(df)\nprint(df.head())",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "data = {\n    \"Name\": [\"Shilpa\", \"Aman\", \"Riya\"],\n    \"Age\": [21, 22, 20],\n    \"Score\": [85, 90, 88]\n}\ndf = pd.DataFrame(data)\nprint(df)\nprint(df.head())\nprint(df.shape)\nprint(df.columns)",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "df = pd.DataFrame(data)\nprint(df)\nprint(df.head())\nprint(df.shape)\nprint(df.columns)\nprint(df.info())\nprint(df.describe())\nscore_column = df['Score']\nprint(score_column)\nselected_columns = df[['Name', 'Score']]",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "score_column",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "score_column = df['Score']\nprint(score_column)\nselected_columns = df[['Name', 'Score']]\nprint(selected_columns)",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "selected_columns",
+        "kind": 5,
+        "importPath": "Day07.Level1",
+        "description": "Day07.Level1",
+        "peekOfCode": "selected_columns = df[['Name', 'Score']]\nprint(selected_columns)",
+        "detail": "Day07.Level1",
+        "documentation": {}
+    }
+]

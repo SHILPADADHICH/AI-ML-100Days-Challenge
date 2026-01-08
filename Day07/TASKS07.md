@@ -19,7 +19,7 @@ By the end of Day 7, I should be able to:
 ## ⏰ Time Breakdown
 
 - **Lecture (1.5h)** → Pandas Series, DataFrames, basic operations
-- **Coding (2.5h)** → Kaggle Pandas Course (free)
+- **Coding (2.5h)** → Kaggle Pandas Course 
 - **Practice (1h)** → Load and explore CSV files
 - **Mini-Project (1h)** → Clean a real dataset
 
