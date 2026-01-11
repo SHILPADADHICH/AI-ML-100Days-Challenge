@@ -67,6 +67,15 @@
         "documentation": {}
     },
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "kind": 2,
         "importPath": "Day02.BasicFunctions",
@@ -1148,6 +1157,42 @@
         "description": "Day07.Level1",
         "peekOfCode": "selected_columns = df[['Name', 'Score']]\nprint(selected_columns)",
         "detail": "Day07.Level1",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Day10.code",
+        "description": "Day10.code",
+        "peekOfCode": "x = [1, 2, 3, 4, 5]\ny = [10, 20, 30, 40, 50]\n# Plot 1: Simple Line Plot\nplt.plot(x,y)\nplt.title(\"Simple Line Plot\")\nplt.xlabel(\"X-axis\")\nplt.ylabel(\"Y-axis\")\nplt.show()\n#Plot 2: Bar Chart\ncategories = ['A', 'B', 'C', 'D']",
+        "detail": "Day10.code",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Day10.code",
+        "description": "Day10.code",
+        "peekOfCode": "y = [10, 20, 30, 40, 50]\n# Plot 1: Simple Line Plot\nplt.plot(x,y)\nplt.title(\"Simple Line Plot\")\nplt.xlabel(\"X-axis\")\nplt.ylabel(\"Y-axis\")\nplt.show()\n#Plot 2: Bar Chart\ncategories = ['A', 'B', 'C', 'D']\nvalues = [5, 7, 3, 8]",
+        "detail": "Day10.code",
+        "documentation": {}
+    },
+    {
+        "label": "categories",
+        "kind": 5,
+        "importPath": "Day10.code",
+        "description": "Day10.code",
+        "peekOfCode": "categories = ['A', 'B', 'C', 'D']\nvalues = [5, 7, 3, 8]\nplt.bar(categories, values, color='skyblue')\nplt.title(\"Bar Chart Example\")\nplt.xlabel(\"Categories\")\nplt.ylabel(\"Values\")\nplt.show()\n#Plot 3: Scatter Plot\nplt.scatter(x, y, color='red')\nplt.title(\"Scatter Plot Example\")",
+        "detail": "Day10.code",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "Day10.code",
+        "description": "Day10.code",
+        "peekOfCode": "values = [5, 7, 3, 8]\nplt.bar(categories, values, color='skyblue')\nplt.title(\"Bar Chart Example\")\nplt.xlabel(\"Categories\")\nplt.ylabel(\"Values\")\nplt.show()\n#Plot 3: Scatter Plot\nplt.scatter(x, y, color='red')\nplt.title(\"Scatter Plot Example\")\nplt.xlabel(\"X-axis\")",
+        "detail": "Day10.code",
         "documentation": {}
     }
 ]
