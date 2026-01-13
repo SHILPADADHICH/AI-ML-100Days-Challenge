@@ -76,6 +76,24 @@
         "documentation": {}
     },
     {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "kind": 2,
         "importPath": "Day02.BasicFunctions",
@@ -1193,6 +1211,24 @@
         "description": "Day10.code",
         "peekOfCode": "values = [5, 7, 3, 8]\nplt.bar(categories, values, color='skyblue')\nplt.title(\"Bar Chart Example\")\nplt.xlabel(\"Categories\")\nplt.ylabel(\"Values\")\nplt.show()\n#Plot 3: Scatter Plot\nplt.scatter(x, y, color='red')\nplt.title(\"Scatter Plot Example\")\nplt.xlabel(\"X-axis\")",
         "detail": "Day10.code",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Day11.code-2",
+        "description": "Day11.code-2",
+        "peekOfCode": "df = sns.load_dataset(\"iris\")\ndf.head()\nplt.figure(figsize=(7,4))\nsns.countplot(x=\"species\", data=df)\nplt.title(\"Count of Each Iris Species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Count\")\nplt.show()\n#Box Plot\nplt.figure(figsize=(6,4))",
+        "detail": "Day11.code-2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Day11.code",
+        "description": "Day11.code",
+        "peekOfCode": "df = sns.load_dataset(\"tips\")\nsns.histplot(df[\"total_bill\"])\nplt.title(\"Total Bill Distribution\")\nplt.savfig(\"plots/hist_plot.png\")\nplt.show()\nplt.close() \nsns.scatterplot(data=df, x=\"total_bill\", y=\"tip\", hue=\"time\")\nplt.show()\nsns.boxplot(x=df[\"total_bill\"])\nplt.show()",
+        "detail": "Day11.code",
         "documentation": {}
     }
 ]
