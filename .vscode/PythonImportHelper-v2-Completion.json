@@ -1214,6 +1214,15 @@
         "documentation": {}
     },
     {
+        "label": "numeric_df",
+        "kind": 5,
+        "importPath": "Day11.code-2",
+        "description": "Day11.code-2",
+        "peekOfCode": "numeric_df = df.select_dtypes(include=\"number\")\ndf = sns.load_dataset(\"iris\")\ndf.head()\nplt.figure(figsize=(7,4))\nsns.countplot(x=\"species\", data=df)\nplt.title(\"Count of Each Iris Species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Count\")\nplt.show()\n#Box Plot",
+        "detail": "Day11.code-2",
+        "documentation": {}
+    },
+    {
         "label": "df",
         "kind": 5,
         "importPath": "Day11.code-2",

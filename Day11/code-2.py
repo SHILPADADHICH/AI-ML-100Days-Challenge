@@ -1,6 +1,6 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+numeric_df = df.select_dtypes(include="number")
 df = sns.load_dataset("iris")
 df.head()
 
