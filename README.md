@@ -40,6 +40,11 @@ I am committing to **100 days of continuous learning** in Artificial Intelligenc
 | Day 5 | Python for AI | ✅     |
 | Day 6 | Python for AI | ✅     |
 | Day 7 | Python for AI | ✅     |
+| Day 8 | Python for AI | ✅     |
+| Day 9 | Python for AI | ✅     |
+| Day 10 | Python for AI | ✅     |
+| Day 11 | Python for AI | ✅     |
+| Day 12 | Python for AI | ✅     |
 
 ---
 
