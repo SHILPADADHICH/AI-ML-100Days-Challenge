@@ -1,8 +1,8 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
-numeric_df = df.select_dtypes(include="number")
 df = sns.load_dataset("iris")
 df.head()
+numeric_df = df.select_dtypes(include="number")
 
 plt.figure(figsize=(7,4))
 sns.countplot(x="species", data=df)

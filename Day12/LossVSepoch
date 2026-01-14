@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import seaborn as sns
+BASE_DIR = Path(__file__).resolve().parent
+PLOTS_DIR = BASE_DIR / "research_plots"
+PLOTS_DIR.mkdir(exist_ok=True)
+
+epochs = range(1, 11)
+loss = [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.35, 0.3, 0.25, 0.2]
+plt.plot(epochs, loss, marker ='o', color='red')
+plt.title('Model Loss over Epochs')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.savefig(PLOTS_DIR / 'model_loss.png', dpi=300, bbox_inches='tight')
+plt.show()
+plt.close()

@@ -94,6 +94,30 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "kind": 2,
         "importPath": "Day02.BasicFunctions",
@@ -1214,20 +1238,20 @@
         "documentation": {}
     },
     {
-        "label": "numeric_df",
-        "kind": 5,
-        "importPath": "Day11.code-2",
-        "description": "Day11.code-2",
-        "peekOfCode": "numeric_df = df.select_dtypes(include=\"number\")\ndf = sns.load_dataset(\"iris\")\ndf.head()\nplt.figure(figsize=(7,4))\nsns.countplot(x=\"species\", data=df)\nplt.title(\"Count of Each Iris Species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Count\")\nplt.show()\n#Box Plot",
-        "detail": "Day11.code-2",
-        "documentation": {}
-    },
-    {
         "label": "df",
         "kind": 5,
         "importPath": "Day11.code-2",
         "description": "Day11.code-2",
-        "peekOfCode": "df = sns.load_dataset(\"iris\")\ndf.head()\nplt.figure(figsize=(7,4))\nsns.countplot(x=\"species\", data=df)\nplt.title(\"Count of Each Iris Species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Count\")\nplt.show()\n#Box Plot\nplt.figure(figsize=(6,4))",
+        "peekOfCode": "df = sns.load_dataset(\"iris\")\ndf.head()\nnumeric_df = df.select_dtypes(include=\"number\")\nplt.figure(figsize=(7,4))\nsns.countplot(x=\"species\", data=df)\nplt.title(\"Count of Each Iris Species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Count\")\nplt.show()\n#Box Plot",
+        "detail": "Day11.code-2",
+        "documentation": {}
+    },
+    {
+        "label": "numeric_df",
+        "kind": 5,
+        "importPath": "Day11.code-2",
+        "description": "Day11.code-2",
+        "peekOfCode": "numeric_df = df.select_dtypes(include=\"number\")\nplt.figure(figsize=(7,4))\nsns.countplot(x=\"species\", data=df)\nplt.title(\"Count of Each Iris Species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Count\")\nplt.show()\n#Box Plot\nplt.figure(figsize=(6,4))\nsns.boxplot(x=\"species\", y=\"sepal_length\", data=df)",
         "detail": "Day11.code-2",
         "documentation": {}
     },
@@ -1238,6 +1262,105 @@
         "description": "Day11.code",
         "peekOfCode": "df = sns.load_dataset(\"tips\")\nsns.histplot(df[\"total_bill\"])\nplt.title(\"Total Bill Distribution\")\nplt.savfig(\"plots/hist_plot.png\")\nplt.show()\nplt.close() \nsns.scatterplot(data=df, x=\"total_bill\", y=\"tip\", hue=\"time\")\nplt.show()\nsns.boxplot(x=df[\"total_bill\"])\nplt.show()",
         "detail": "Day11.code",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Day12.AccuracyVsEpoch",
+        "description": "Day12.AccuracyVsEpoch",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\n# Create research_plots inside Day12 directory\nPLOTS_DIR = BASE_DIR / \"research_plots\"\nPLOTS_DIR.mkdir(exist_ok=True)\nepochs = range(1, 11)\naccuracy = [0.55, 0.60, 0.65, 0.70, 0.74, 0.78, 0.82, 0.85, 0.87, 0.89]\n# Plotting the accuracy over epochs\nplt.plot(epochs, accuracy, marker ='o')\nplt.title('Model Accuracy over Epochs')\nplt.xlabel('Epochs')",
+        "detail": "Day12.AccuracyVsEpoch",
+        "documentation": {}
+    },
+    {
+        "label": "PLOTS_DIR",
+        "kind": 5,
+        "importPath": "Day12.AccuracyVsEpoch",
+        "description": "Day12.AccuracyVsEpoch",
+        "peekOfCode": "PLOTS_DIR = BASE_DIR / \"research_plots\"\nPLOTS_DIR.mkdir(exist_ok=True)\nepochs = range(1, 11)\naccuracy = [0.55, 0.60, 0.65, 0.70, 0.74, 0.78, 0.82, 0.85, 0.87, 0.89]\n# Plotting the accuracy over epochs\nplt.plot(epochs, accuracy, marker ='o')\nplt.title('Model Accuracy over Epochs')\nplt.xlabel('Epochs')\nplt.ylabel('Accuracy')\nplt.savefig(PLOTS_DIR / 'model_accuracy.png', dpi=300, bbox_inches='tight')",
+        "detail": "Day12.AccuracyVsEpoch",
+        "documentation": {}
+    },
+    {
+        "label": "epochs",
+        "kind": 5,
+        "importPath": "Day12.AccuracyVsEpoch",
+        "description": "Day12.AccuracyVsEpoch",
+        "peekOfCode": "epochs = range(1, 11)\naccuracy = [0.55, 0.60, 0.65, 0.70, 0.74, 0.78, 0.82, 0.85, 0.87, 0.89]\n# Plotting the accuracy over epochs\nplt.plot(epochs, accuracy, marker ='o')\nplt.title('Model Accuracy over Epochs')\nplt.xlabel('Epochs')\nplt.ylabel('Accuracy')\nplt.savefig(PLOTS_DIR / 'model_accuracy.png', dpi=300, bbox_inches='tight')\nplt.show()\nplt.close()",
+        "detail": "Day12.AccuracyVsEpoch",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "Day12.AccuracyVsEpoch",
+        "description": "Day12.AccuracyVsEpoch",
+        "peekOfCode": "accuracy = [0.55, 0.60, 0.65, 0.70, 0.74, 0.78, 0.82, 0.85, 0.87, 0.89]\n# Plotting the accuracy over epochs\nplt.plot(epochs, accuracy, marker ='o')\nplt.title('Model Accuracy over Epochs')\nplt.xlabel('Epochs')\nplt.ylabel('Accuracy')\nplt.savefig(PLOTS_DIR / 'model_accuracy.png', dpi=300, bbox_inches='tight')\nplt.show()\nplt.close()",
+        "detail": "Day12.AccuracyVsEpoch",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Day12.ConfusionMatrix",
+        "description": "Day12.ConfusionMatrix",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\nPLOTS_DIR = BASE_DIR / \"research_plots\"\nPLOTS_DIR.mkdir(exist_ok=True)\ncm = np.array([[50, 5],\n               [3, 42]])\nplt.figure(figsize=(6,4))\nsns.heatmap(cm, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted Label\")\nplt.ylabel(\"True Label\")",
+        "detail": "Day12.ConfusionMatrix",
+        "documentation": {}
+    },
+    {
+        "label": "PLOTS_DIR",
+        "kind": 5,
+        "importPath": "Day12.ConfusionMatrix",
+        "description": "Day12.ConfusionMatrix",
+        "peekOfCode": "PLOTS_DIR = BASE_DIR / \"research_plots\"\nPLOTS_DIR.mkdir(exist_ok=True)\ncm = np.array([[50, 5],\n               [3, 42]])\nplt.figure(figsize=(6,4))\nsns.heatmap(cm, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted Label\")\nplt.ylabel(\"True Label\")\nplt.savefig(PLOTS_DIR / 'confusion_matrix.png', dpi=300, bbox_inches='tight')",
+        "detail": "Day12.ConfusionMatrix",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "Day12.ConfusionMatrix",
+        "description": "Day12.ConfusionMatrix",
+        "peekOfCode": "cm = np.array([[50, 5],\n               [3, 42]])\nplt.figure(figsize=(6,4))\nsns.heatmap(cm, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted Label\")\nplt.ylabel(\"True Label\")\nplt.savefig(PLOTS_DIR / 'confusion_matrix.png', dpi=300, bbox_inches='tight')\nplt.show()\nplt.close()",
+        "detail": "Day12.ConfusionMatrix",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Day12.FeatureImportance",
+        "description": "Day12.FeatureImportance",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\nPLOTS_DIR = BASE_DIR / \"research_plots\"\nPLOTS_DIR.mkdir(exist_ok=True)\nfeatures = [\"Age\", \"Income\", \"Education\", \"Experience\"]\nimportance = [0.25, 0.40, 0.20, 0.15]\nplt.barh(importance, features, color='yellow')\nplt.ylabel(\"Importance Score\")\nplt.title(\"Feature Importance\")\nplt.savefig(PLOTS_DIR / 'feature_importance.png', dpi=300, bbox_inches=\"tight\")\nplt.show()",
+        "detail": "Day12.FeatureImportance",
+        "documentation": {}
+    },
+    {
+        "label": "PLOTS_DIR",
+        "kind": 5,
+        "importPath": "Day12.FeatureImportance",
+        "description": "Day12.FeatureImportance",
+        "peekOfCode": "PLOTS_DIR = BASE_DIR / \"research_plots\"\nPLOTS_DIR.mkdir(exist_ok=True)\nfeatures = [\"Age\", \"Income\", \"Education\", \"Experience\"]\nimportance = [0.25, 0.40, 0.20, 0.15]\nplt.barh(importance, features, color='yellow')\nplt.ylabel(\"Importance Score\")\nplt.title(\"Feature Importance\")\nplt.savefig(PLOTS_DIR / 'feature_importance.png', dpi=300, bbox_inches=\"tight\")\nplt.show()\nplt.close()",
+        "detail": "Day12.FeatureImportance",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "Day12.FeatureImportance",
+        "description": "Day12.FeatureImportance",
+        "peekOfCode": "features = [\"Age\", \"Income\", \"Education\", \"Experience\"]\nimportance = [0.25, 0.40, 0.20, 0.15]\nplt.barh(importance, features, color='yellow')\nplt.ylabel(\"Importance Score\")\nplt.title(\"Feature Importance\")\nplt.savefig(PLOTS_DIR / 'feature_importance.png', dpi=300, bbox_inches=\"tight\")\nplt.show()\nplt.close()",
+        "detail": "Day12.FeatureImportance",
+        "documentation": {}
+    },
+    {
+        "label": "importance",
+        "kind": 5,
+        "importPath": "Day12.FeatureImportance",
+        "description": "Day12.FeatureImportance",
+        "peekOfCode": "importance = [0.25, 0.40, 0.20, 0.15]\nplt.barh(importance, features, color='yellow')\nplt.ylabel(\"Importance Score\")\nplt.title(\"Feature Importance\")\nplt.savefig(PLOTS_DIR / 'feature_importance.png', dpi=300, bbox_inches=\"tight\")\nplt.show()\nplt.close()",
+        "detail": "Day12.FeatureImportance",
         "documentation": {}
     }
 ]
