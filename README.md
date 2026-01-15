@@ -42,9 +42,10 @@ I am committing to **100 days of continuous learning** in Artificial Intelligenc
 | Day 7 | Python for AI | ✅     |
 | Day 8 | REVISION      | ✅     |
 | Day 9 | REVISION      | ✅     |
-| Day 10 | Machine Learning | ✅     |
-| Day 11 | Machine Learning | ✅     |
-| Day 12 | Machine Learning | ✅     |
+| Day 10 | Machine Learning Foundations | ✅     |
+| Day 11 | Machine Learning Foundations | ✅     |
+| Day 12 | Machine Learning Foundations | ✅     |
+| Day 13 | Data Science Tools & Setup | ✅     |
 
 ---
 
