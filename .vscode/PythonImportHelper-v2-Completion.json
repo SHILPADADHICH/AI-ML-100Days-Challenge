@@ -1377,7 +1377,7 @@
         "kind": 5,
         "importPath": "Day16.Code-1",
         "description": "Day16.Code-1",
-        "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"students_raw.csv\", index=False)\n#checking missing values\ndf.isnull().sum()\ndf[\"Age\"].fillna(df[\"Age\"].median(), inplace=True)\ndf.duplicated().sum()\ndf.drop_duplicates(inplace=True)",
+        "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"students_raw.csv\", index=False)\n#checking missing values\ndf.isnull().sum()\ndf[\"Age\"].fillna(df[\"Age\"].median(), inplace=True)\n#removing duplicates\ndf.duplicated().sum()\ndf.drop_duplicates(inplace=True)",
         "detail": "Day16.Code-1",
         "documentation": {}
     }

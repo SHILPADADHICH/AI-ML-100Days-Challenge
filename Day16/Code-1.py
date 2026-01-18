@@ -22,6 +22,6 @@ df.to_csv("students_raw.csv", index=False)
 #checking missing values
 df.isnull().sum()
 df["Age"].fillna(df["Age"].median(), inplace=True)
-
+#removing duplicates
 df.duplicated().sum()
 df.drop_duplicates(inplace=True)
