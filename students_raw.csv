@@ -1,0 +1,7 @@
+Student_ID,Age,Marks,City,Gender,Attendance,Enrollment_Date
+101,18.0,85.0,Delhi,M,90.0,2023-01-15
+102,,78.0,Mumbai,F,85.0,15/02/2023
+103,19.0,,Delhi,Female,88.0,2023/03/10
+104,200.0,92.0,Pune,M,,"March 20, 2023"
+105,18.0,45.0,delhi,F,70.0,2023-04-01
+105,18.0,45.0,delhi,F,70.0,2023-04-01

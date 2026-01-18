@@ -1362,5 +1362,23 @@
         "peekOfCode": "importance = [0.25, 0.40, 0.20, 0.15]\nplt.barh(importance, features, color='yellow')\nplt.ylabel(\"Importance Score\")\nplt.title(\"Feature Importance\")\nplt.savefig(PLOTS_DIR / 'feature_importance.png', dpi=300, bbox_inches=\"tight\")\nplt.show()\nplt.close()",
         "detail": "Day12.FeatureImportance",
         "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Day16.Code-1",
+        "description": "Day16.Code-1",
+        "peekOfCode": "data = {\n    \"Student_ID\": [101,102,103,104,105,105],\n    \"Age\": [18,None,19,200,18,18],\n    \"Marks\": [85,78,None,92,45,45],\n    \"City\": [\"Delhi\",\"Mumbai\",\"Delhi\",\"Pune\",\"delhi\",\"delhi\"],\n    \"Gender\": [\"M\",\"F\",\"Female\",\"M\",\"F\",\"F\"],\n    \"Attendance\": [90,85,88,None,70,70],\n    \"Enrollment_Date\": [\n        \"2023-01-15\",\n        \"15/02/2023\",",
+        "detail": "Day16.Code-1",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Day16.Code-1",
+        "description": "Day16.Code-1",
+        "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"students_raw.csv\", index=False)\n#checking missing values\ndf.isnull().sum()\ndf[\"Age\"].fillna(df[\"Age\"].median(), inplace=True)\ndf.duplicated().sum()\ndf.drop_duplicates(inplace=True)",
+        "detail": "Day16.Code-1",
+        "documentation": {}
     }
 ]
