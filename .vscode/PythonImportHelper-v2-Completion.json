@@ -1386,7 +1386,7 @@
         "kind": 5,
         "importPath": "Day17.dataset",
         "description": "Day17.dataset",
-        "peekOfCode": "data = {\n    \"Study_Hours\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"Marks\": [35, 40, 50, 60, 65, 75, 85, 95],\n    \"Attendance\": [60, 65, 70, 75, 80, 85, 90, 95]\n}\ndf = pd.DataFrame(data)\ndf.to_csv(\"../Data/students_cleaned.csv\", index=False)\nsns.histplot(df[\"Marks\"], bins=5)\nplt.xlabel(\"Marks\")\nplt.ylabel(\"Number of Students\")",
+        "peekOfCode": "data = {\n    \"Study_Hours\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"Marks\": [35, 40, 50, 60, 65, 75, 85, 95],\n    \"Attendance\": [60, 65, 70, 75, 80, 85, 90, 95]\n}\ndf = pd.DataFrame(data)\ndf.to_csv(\"./Data/students_cleaned.csv\", index=False)\nsns.histplot(df[\"Marks\"], bins=5)\nplt.xlabel(\"Marks\")\nplt.ylabel(\"Number of Students\")",
         "detail": "Day17.dataset",
         "documentation": {}
     },
@@ -1395,7 +1395,7 @@
         "kind": 5,
         "importPath": "Day17.dataset",
         "description": "Day17.dataset",
-        "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"../Data/students_cleaned.csv\", index=False)\nsns.histplot(df[\"Marks\"], bins=5)\nplt.xlabel(\"Marks\")\nplt.ylabel(\"Number of Students\")\nplt.title(\"Distribution of Marks\")\nplt.show()\nsns.scatterplot(x=df[\"Study_Hours\"], y=df[\"Marks\"])\nplt.xlabel(\"Study Hours\")\nplt.ylabel(\"Marks\")",
+        "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"./Data/students_cleaned.csv\", index=False)\nsns.histplot(df[\"Marks\"], bins=5)\nplt.xlabel(\"Marks\")\nplt.ylabel(\"Number of Students\")\nplt.title(\"Distribution of Marks\")\nplt.show()\nsns.scatterplot(x=df[\"Study_Hours\"], y=df[\"Marks\"])\nplt.xlabel(\"Study Hours\")\nplt.ylabel(\"Marks\")",
         "detail": "Day17.dataset",
         "documentation": {}
     }

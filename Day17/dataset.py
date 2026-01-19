@@ -10,7 +10,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-df.to_csv("../Data/students_cleaned.csv", index=False)
+df.to_csv("./Data/students_cleaned.csv", index=False)
 sns.histplot(df["Marks"], bins=5)
 plt.xlabel("Marks")
 plt.ylabel("Number of Students")
