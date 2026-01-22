@@ -1398,5 +1398,185 @@
         "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"./Data/students_cleaned.csv\", index=False)\nsns.histplot(df[\"Marks\"], bins=5)\nplt.xlabel(\"Marks\")\nplt.ylabel(\"Number of Students\")\nplt.title(\"Distribution of Marks\")\nplt.show()\nsns.scatterplot(x=df[\"Study_Hours\"], y=df[\"Marks\"])\nplt.xlabel(\"Study Hours\")\nplt.ylabel(\"Marks\")",
         "detail": "Day17.dataset",
         "documentation": {}
+    },
+    {
+        "label": "orders",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders = pd.DataFrame({\n    'order_id': range(1, 11),\n    'user_id': [101,102,101,103,102,101,104,103,102,101],\n    'order_date': pd.date_range('2024-01-01', periods=10),\n    'category': ['Electronics','Books','Books','Clothing','Electronics',\n                 'Clothing','Books','Electronics','Clothing','Books'],\n    'price': [1200,300,450,800,1500,900,350,2000,700,500]\n})\n#Covnverting order date to datetime\norders['order_date'] = pd.to_datetime(orders['order_date'])",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['order_date']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['order_date'] = pd.to_datetime(orders['order_date'])\norders.set_index('order_date', inplace=True)\nprint(\"Initial Orders DataFrame:\")\nprint(orders)\n#creating time based features\norders['year'] = orders.index.year\norders['month'] = orders.index.month\norders['day_of_week'] = orders.index.day_name()\nprint(\"\\nOrders DataFrame with Time-based Features:\")\nprint(orders)",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['year']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['year'] = orders.index.year\norders['month'] = orders.index.month\norders['day_of_week'] = orders.index.day_name()\nprint(\"\\nOrders DataFrame with Time-based Features:\")\nprint(orders)\n#Encoding categorical variables\norders = pd.get_dummies(orders, columns=['category'], drop_first=True)\nprint(\"\\nOrders DataFrame with One-Hot Encoded Categories:\")\nprint(orders)\n#User level feature: Total spend per user",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['month']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['month'] = orders.index.month\norders['day_of_week'] = orders.index.day_name()\nprint(\"\\nOrders DataFrame with Time-based Features:\")\nprint(orders)\n#Encoding categorical variables\norders = pd.get_dummies(orders, columns=['category'], drop_first=True)\nprint(\"\\nOrders DataFrame with One-Hot Encoded Categories:\")\nprint(orders)\n#User level feature: Total spend per user\norders['total_spend_per_user'] = orders.groupby('user_id')['price'].transform('sum')",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['day_of_week']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['day_of_week'] = orders.index.day_name()\nprint(\"\\nOrders DataFrame with Time-based Features:\")\nprint(orders)\n#Encoding categorical variables\norders = pd.get_dummies(orders, columns=['category'], drop_first=True)\nprint(\"\\nOrders DataFrame with One-Hot Encoded Categories:\")\nprint(orders)\n#User level feature: Total spend per user\norders['total_spend_per_user'] = orders.groupby('user_id')['price'].transform('sum')\nprint(\"\\nOrders DataFrame with Total Spend per User:\")",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders = pd.get_dummies(orders, columns=['category'], drop_first=True)\nprint(\"\\nOrders DataFrame with One-Hot Encoded Categories:\")\nprint(orders)\n#User level feature: Total spend per user\norders['total_spend_per_user'] = orders.groupby('user_id')['price'].transform('sum')\nprint(\"\\nOrders DataFrame with Total Spend per User:\")\nprint(orders)\n#memory optimization\norders['price'] = orders['price'].astype('int32')\norders['user_id'] = orders['user_id'].astype('int16')",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['total_spend_per_user']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['total_spend_per_user'] = orders.groupby('user_id')['price'].transform('sum')\nprint(\"\\nOrders DataFrame with Total Spend per User:\")\nprint(orders)\n#memory optimization\norders['price'] = orders['price'].astype('int32')\norders['user_id'] = orders['user_id'].astype('int16')\norders.info()\nprint(\"\\nOrders DataFrame after Memory Optimization:\")\nprint(orders)",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['price']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['price'] = orders['price'].astype('int32')\norders['user_id'] = orders['user_id'].astype('int16')\norders.info()\nprint(\"\\nOrders DataFrame after Memory Optimization:\")\nprint(orders)",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "orders['user_id']",
+        "kind": 5,
+        "importPath": "Day19.E-commerce",
+        "description": "Day19.E-commerce",
+        "peekOfCode": "orders['user_id'] = orders['user_id'].astype('int16')\norders.info()\nprint(\"\\nOrders DataFrame after Memory Optimization:\")\nprint(orders)",
+        "detail": "Day19.E-commerce",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "data = {\n    'date': pd.date_range('2024-01-01', periods=30),\n    'category': np.random.choice(['Electronics', 'Clothing', 'Books'], 30),\n    'sales': np.random.randint(100, 1000, 30),\n    'price': np.random.randint(200, 2000, 30)\n}\ndf = pd.DataFrame(data)\ndf.set_index('date', inplace=True)\ndf.head()\nmonthly_sales = df.resample('ME').sum()",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df = pd.DataFrame(data)\ndf.set_index('date', inplace=True)\ndf.head()\nmonthly_sales = df.resample('ME').sum()\nprint(\"Monthly Sales Summary:\")\nprint(monthly_sales)\n#Normalize prices per category\ndf['price_norm'] = df.groupby('category')['price'].transform(\n    lambda x: x / x.mean()\n)",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "monthly_sales",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "monthly_sales = df.resample('ME').sum()\nprint(\"Monthly Sales Summary:\")\nprint(monthly_sales)\n#Normalize prices per category\ndf['price_norm'] = df.groupby('category')['price'].transform(\n    lambda x: x / x.mean()\n)\ndf.head()\ncategory_sales = df.groupby('category')['sales'].sum().reset_index()\nprint(\"\\nTotal Sales by Category:\") ",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df['price_norm']",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df['price_norm'] = df.groupby('category')['price'].transform(\n    lambda x: x / x.mean()\n)\ndf.head()\ncategory_sales = df.groupby('category')['sales'].sum().reset_index()\nprint(\"\\nTotal Sales by Category:\") \nprint(category_sales)\n#Create a rolling 7-day average of sales\ndf['sales_7d_avg'] = df['sales'].rolling(window=7).mean()\nprint(\"\\nDataFrame with 7-Day Rolling Average of Sales:\")",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "category_sales",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "category_sales = df.groupby('category')['sales'].sum().reset_index()\nprint(\"\\nTotal Sales by Category:\") \nprint(category_sales)\n#Create a rolling 7-day average of sales\ndf['sales_7d_avg'] = df['sales'].rolling(window=7).mean()\nprint(\"\\nDataFrame with 7-Day Rolling Average of Sales:\")\nprint(df.head(10))\n#Convert string column to ordered categorical\ncategory_order = ['Books', 'Clothing', 'Electronics']\ndf['category'] = pd.Categorical(",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df['sales_7d_avg']",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df['sales_7d_avg'] = df['sales'].rolling(window=7).mean()\nprint(\"\\nDataFrame with 7-Day Rolling Average of Sales:\")\nprint(df.head(10))\n#Convert string column to ordered categorical\ncategory_order = ['Books', 'Clothing', 'Electronics']\ndf['category'] = pd.Categorical(\n    df['category'], categories=category_order, ordered=True\n)\nprint(\"\\nDataFrame with Ordered Categorical 'category':\")\nprint(df.head())",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "category_order",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "category_order = ['Books', 'Clothing', 'Electronics']\ndf['category'] = pd.Categorical(\n    df['category'], categories=category_order, ordered=True\n)\nprint(\"\\nDataFrame with Ordered Categorical 'category':\")\nprint(df.head())\n#Reduce memory usage of a DataFrame\ndf['category'] = df['category'].astype('category')\ndf['sales'] = df['sales'].astype('int32')\ndf['price'] = df['price'].astype('int32')",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df['category']",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df['category'] = pd.Categorical(\n    df['category'], categories=category_order, ordered=True\n)\nprint(\"\\nDataFrame with Ordered Categorical 'category':\")\nprint(df.head())\n#Reduce memory usage of a DataFrame\ndf['category'] = df['category'].astype('category')\ndf['sales'] = df['sales'].astype('int32')\ndf['price'] = df['price'].astype('int32')\ndf.info()",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df['category']",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df['category'] = df['category'].astype('category')\ndf['sales'] = df['sales'].astype('int32')\ndf['price'] = df['price'].astype('int32')\ndf.info()\nprint(\"\\nDataFrame after Memory Optimization:\")\nprint(df.head())",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df['sales']",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df['sales'] = df['sales'].astype('int32')\ndf['price'] = df['price'].astype('int32')\ndf.info()\nprint(\"\\nDataFrame after Memory Optimization:\")\nprint(df.head())",
+        "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "df['price']",
+        "kind": 5,
+        "importPath": "Day19.practice",
+        "description": "Day19.practice",
+        "peekOfCode": "df['price'] = df['price'].astype('int32')\ndf.info()\nprint(\"\\nDataFrame after Memory Optimization:\")\nprint(df.head())",
+        "detail": "Day19.practice",
+        "documentation": {}
     }
 ]
