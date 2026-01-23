@@ -118,6 +118,23 @@
         "documentation": {}
     },
     {
+        "label": "kagglehub",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "kagglehub",
+        "description": "kagglehub",
+        "detail": "kagglehub",
+        "documentation": {}
+    },
+    {
+        "label": "KaggleDatasetAdapter",
+        "importPath": "kagglehub",
+        "description": "kagglehub",
+        "isExtraImport": true,
+        "detail": "kagglehub",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "kind": 2,
         "importPath": "Day02.BasicFunctions",
@@ -1577,6 +1594,78 @@
         "description": "Day19.practice",
         "peekOfCode": "df['price'] = df['price'].astype('int32')\ndf.info()\nprint(\"\\nDataFrame after Memory Optimization:\")\nprint(df.head())",
         "detail": "Day19.practice",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "file_path = \"C:/Users/computer/AI-ML-100Days-Challenge/Day20/Students Social Media Addiction.csv\"\ndf = pd.read_csv(file_path)  # Load the dataset using KaggleDatasetAdapter\nprint(\"Dataset loaded successfully.\")\nprint(\"First 5 records:\", df.head())\n# Check for missing values\nmissing_values = df.isnull().sum()\nprint(\"Missing values in each column:\\n\", missing_values)\n# Fill missing values with column mean for numerical columns\nnumerical_cols = df.select_dtypes(include=[np.number]).columns\nfor col in numerical_cols:",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "df = pd.read_csv(file_path)  # Load the dataset using KaggleDatasetAdapter\nprint(\"Dataset loaded successfully.\")\nprint(\"First 5 records:\", df.head())\n# Check for missing values\nmissing_values = df.isnull().sum()\nprint(\"Missing values in each column:\\n\", missing_values)\n# Fill missing values with column mean for numerical columns\nnumerical_cols = df.select_dtypes(include=[np.number]).columns\nfor col in numerical_cols:\n    df[col].fillna(df[col].mean(), inplace=True)",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "missing_values",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "missing_values = df.isnull().sum()\nprint(\"Missing values in each column:\\n\", missing_values)\n# Fill missing values with column mean for numerical columns\nnumerical_cols = df.select_dtypes(include=[np.number]).columns\nfor col in numerical_cols:\n    df[col].fillna(df[col].mean(), inplace=True)\nprint(\"Missing values filled with column means for numerical columns.\")\nprint(\"DataFrame after handling missing values:\\n\", df.head())\nduplicate_values = df.duplicated().sum()\nprint(\"Number of duplicate records:\", duplicate_values)",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "numerical_cols",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "numerical_cols = df.select_dtypes(include=[np.number]).columns\nfor col in numerical_cols:\n    df[col].fillna(df[col].mean(), inplace=True)\nprint(\"Missing values filled with column means for numerical columns.\")\nprint(\"DataFrame after handling missing values:\\n\", df.head())\nduplicate_values = df.duplicated().sum()\nprint(\"Number of duplicate records:\", duplicate_values)\ndata_type = df.dtypes\nprint(\"Data types of each column:\\n\", data_type)\n#graphical analysis",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "duplicate_values",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "duplicate_values = df.duplicated().sum()\nprint(\"Number of duplicate records:\", duplicate_values)\ndata_type = df.dtypes\nprint(\"Data types of each column:\\n\", data_type)\n#graphical analysis\n#Distribution of a numerical column (e.g., 'Age' if it exists)\nif 'Age' in df.columns:\n    plt.figure(figsize=(10, 6))\n    sns.histplot(df['Age'], bins=30, kde=True)\n    plt.title('Distribution of Age')",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "data_type",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "data_type = df.dtypes\nprint(\"Data types of each column:\\n\", data_type)\n#graphical analysis\n#Distribution of a numerical column (e.g., 'Age' if it exists)\nif 'Age' in df.columns:\n    plt.figure(figsize=(10, 6))\n    sns.histplot(df['Age'], bins=30, kde=True)\n    plt.title('Distribution of Age')\n    plt.xlabel('Age')\n    plt.ylabel('Frequency')",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "numerical_features",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "numerical_features = df.select_dtypes(include=[np.number])\nplt.figure(figsize=(12, 8))\ncorrelation_matrix = numerical_features.corr()\nsns.heatmap(correlation_matrix, annot=True, fmt=\".2f\", cmap='coolwarm')\nplt.title('Correlation Heatmap of Numerical Features')\nplt.show()\n#histogram of Social Media Addiction Score\nif 'Addicted_Score' in df.columns:\n    plt.figure(figsize=(10, 6))\n    sns.histplot(df['Age'], bins=30, kde=True)",
+        "detail": "Day20.project",
+        "documentation": {}
+    },
+    {
+        "label": "correlation_matrix",
+        "kind": 5,
+        "importPath": "Day20.project",
+        "description": "Day20.project",
+        "peekOfCode": "correlation_matrix = numerical_features.corr()\nsns.heatmap(correlation_matrix, annot=True, fmt=\".2f\", cmap='coolwarm')\nplt.title('Correlation Heatmap of Numerical Features')\nplt.show()\n#histogram of Social Media Addiction Score\nif 'Addicted_Score' in df.columns:\n    plt.figure(figsize=(10, 6))\n    sns.histplot(df['Age'], bins=30, kde=True)\n    plt.title('Distribution of Social Media Addiction Score')\n    plt.xlabel('Age')",
+        "detail": "Day20.project",
         "documentation": {}
     }
 ]

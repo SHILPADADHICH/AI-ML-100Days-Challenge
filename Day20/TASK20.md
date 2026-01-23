@@ -10,7 +10,7 @@ Build your **first end-to-end data analysis mini project** to understand how rea
 
 You will:
 
-* Load a dataset
+* Load a dataset (we have already practiced with seaborn dataset , now will practice with kaggle)
 * Explore and understand the data
 * Clean and preprocess it
 * Perform analysis
