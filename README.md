@@ -46,7 +46,13 @@ I am committing to **100 days of continuous learning** in Artificial Intelligenc
 | Day 11 | Machine Learning Foundations | ✅     |
 | Day 12 | Machine Learning Foundations | ✅     |
 | Day 13 | Data Science Tools & Setup | ✅     |
-
+| Day 14 | Machine Learning Foundations | ✅     |
+| Day 15 | Machine Learning Foundations | ✅     |
+| Day 16 | Machine Learning Foundations | ✅     |
+| Day 17 | Machine Learning Foundations | ✅     |
+| Day 18 | Machine Learning Foundations | ✅     |
+| Day 20 | Machine Learning Foundations | ✅     |
+| Day 21 | Revision | ✅     |
 ---
 
 📢 _Learning in public to stay accountable._
