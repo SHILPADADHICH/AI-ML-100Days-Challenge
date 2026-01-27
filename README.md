@@ -54,6 +54,7 @@ I am committing to **100 days of continuous learning** in Artificial Intelligenc
 | Day 20 | Machine Learning Foundations | ✅     |
 | Day 21 | Revision | ✅     |
 | Day 22 | Maths | ✅     |
+| Day 23 | Maths | ✅     |
 ---
 
 📢 _Learning in public to stay accountable._
